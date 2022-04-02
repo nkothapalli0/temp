@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+    background-color: rgb(211, 211, 235);
+    position: sticky;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    color: red;
+    padding: 1.5vh;
+    font-size: 3vh;
+}
+ul{
+    padding-left: vmax;
+    background-color: rgb(211, 211, 235);
+}
+.img{
+    height: 13vw;
+    border-radius: 6vw;
+    position: relative;
+    left: 20vw;
+    top: 1vw;
+}
+#about{
+    display: inline-block;
+    position: relative;
+    left: 20vw;
+    height: 8vw;
+    width: 35vw;
+    bottom: 5vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    font-size: 1.1vw;
+}
+#acad{
+    display: inline-block;
+    position: relative;
+    left: 40vw;
+}
+.academics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 15vw;
+}
+#ab{
+    display: inline-block;
+    position: relative;
+    left: 40vw;
+}
+#tenten{
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    left: 10vw;
+}
+#inter{
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    left: 20vw;
+}
+#engi{
+    display: inline-block;
+    position: relative;
+    width: 20vw;
+    left: 30vw;
+}
+.size{
+    display: grid;
+    
+}
+.foo{
+    display: inline-block;
+    position: relative;
+    left: 45vw;
+    top: 2vw;
+}
